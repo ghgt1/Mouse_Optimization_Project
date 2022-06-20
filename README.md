@@ -2,7 +2,9 @@
 연세대학교 ESPORTS LAB에서 2022-1학기에 진행한 마우스 전달함수 최적화 프로그램
 
 # 1. 연구목표
-E스포츠 플레이어들에게 개인별로 최적화된 마우스 전달함수 세팅
+*E스포츠 플레이어들에게 개인별로 최적화된 마우스 전달함수 세팅
+
+전달함수란 마우스가 실제로 움직인 거리와 마우스 커서가 공간상에서 움직인 거리 사이의 상관관계를 결정한다. 이것을 개인별로 최적화해 더 나은 게임 performance를 낼 수 있게 한다.
 
 # 2. 연구의 필요성
 1. 기존의 전달함수의 한계
@@ -23,9 +25,17 @@ Undershoot,overshoot을 활용한 오차값 보정
     
 # 3. 연구내용
 1. 준비물 – 듀얼 센서 마우스
+
+![image](https://user-images.githubusercontent.com/35508595/174532411-44c26be8-6dd6-45c8-bc5d-1a3c0ece7954.png)
+
+
 2. AutoGain 설계 및 구현
   * Serial Port를 통해 마우스의 움직임 정보(dx, dy, dt, 클릭)를 python 프로그램에 저장
   * 클릭과 클릭 사이의 속도 변화에서 submovement를 추출
+  
+  ![image](https://user-images.githubusercontent.com/35508595/174532480-35682b08-a647-4072-810c-0d14dfddc5d1.png)
+  
+
   * 추출한 submovement를 기반으로 마우스 전달함수 최적화
   * 최적화를 마친 마우스 전달함수를 듀얼 센서 마우스에 적용
 3. 연구검증
