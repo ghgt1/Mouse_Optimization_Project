@@ -6,7 +6,10 @@ E스포츠 플레이어들에게 개인별로 최적화된 마우스 전달함�
 
 # 2. 연구의 필요성
 1. 기존의 전달함수의 한계
+
 ![image](https://user-images.githubusercontent.com/35508595/174531913-168bf631-dacf-4c28-9684-a2f991aad3d9.png)
+
+
 Preset이 정해져있는 기존의 전달함수
 2. 게임 프로그램의 전달함수 override 불가
 이러한 전달함수는 software 레벨로는 우회 불가
