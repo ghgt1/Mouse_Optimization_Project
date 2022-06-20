@@ -3,16 +3,11 @@
 
 # 1. 연구목표
 E스포츠 플레이어들에게 개인별로 최적화된 마우스 전달함수 세팅
-# H4 제목  
-## H2 부제목
-### H3 소제목
-#### H4 제목4
-##### H5 제목5
-###### H6 제목6
-
 
 # 2. 연구의 필요성
 1. 기존의 전달함수의 한계
+![image](https://user-images.githubusercontent.com/35508595/174531913-168bf631-dacf-4c28-9684-a2f991aad3d9.png) ![image](https://user-images.githubusercontent.com/35508595/174531934-464d10ea-b7ed-4015-b048-2d3967b1dd53.png)
+Preset이 정해져있는 기존의 전달함수
 2. 게임 프로그램의 전달함수 override 불가
 3. Autogain 함수의 Target 특정
     
