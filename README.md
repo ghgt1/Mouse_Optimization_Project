@@ -6,10 +6,13 @@ E스포츠 플레이어들에게 개인별로 최적화된 마우스 전달함�
 
 # 2. 연구의 필요성
 1. 기존의 전달함수의 한계
-![image](https://user-images.githubusercontent.com/35508595/174531913-168bf631-dacf-4c28-9684-a2f991aad3d9.png) ![image](https://user-images.githubusercontent.com/35508595/174531934-464d10ea-b7ed-4015-b048-2d3967b1dd53.png)
+![image](https://user-images.githubusercontent.com/35508595/174531913-168bf631-dacf-4c28-9684-a2f991aad3d9.png)
 Preset이 정해져있는 기존의 전달함수
 2. 게임 프로그램의 전달함수 override 불가
+이러한 전달함수는 software 레벨로는 우회 불가
 3. Autogain 함수의 Target 특정
+![image](https://user-images.githubusercontent.com/35508595/174532095-0eb33f8b-1267-4ec8-b787-cafa460d3004.png)
+Undershoot,overshoot을 활용한 오차값 보정
     
 # 3. 연구내용
 1. 준비물 – 듀얼 센서 마우스
