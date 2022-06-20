@@ -16,7 +16,9 @@ Preset이 정해져있는 기존의 전달함수
 이러한 전달함수는 software 레벨로는 우회 불가
 
 3. Autogain 함수의 Target 특정
+
 ![image](https://user-images.githubusercontent.com/35508595/174532095-0eb33f8b-1267-4ec8-b787-cafa460d3004.png)
+
 Undershoot,overshoot을 활용한 오차값 보정
     
 # 3. 연구내용
